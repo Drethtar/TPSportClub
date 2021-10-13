@@ -1,0 +1,12 @@
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\bin\Debug\TPDataBase.exe.config
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\bin\Debug\TPDataBase.exe
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\bin\Debug\TPDataBase.pdb
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.csprojAssemblyReference.cache
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.Properties.Resources.resources
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.csproj.GenerateResource.cache
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.csproj.CoreCompileInputs.cache
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.exe
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.pdb
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.CrearCuenta.resources
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.IniciarSesion.resources
+C:\Users\Bauty Garcia\OneDrive\Escritorio\Colegio\TIC\Programacion\TPDataBase\obj\Debug\TPDataBase.SportClubHub.resources
