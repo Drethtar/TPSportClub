@@ -36,3 +36,16 @@ C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.csproj.GenerateResource.
 C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.csproj.CoreCompileInputs.cache
 C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.exe
 C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.pdb
+C:\Users\47026765\Desktop\TPSportClub\bin\Debug\TPDataBase.exe.config
+C:\Users\47026765\Desktop\TPSportClub\bin\Debug\TPDataBase.exe
+C:\Users\47026765\Desktop\TPSportClub\bin\Debug\TPDataBase.pdb
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.csprojAssemblyReference.cache
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.CrearCuenta.resources
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.DeporteFavorito.resources
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.IniciarSesion.resources
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.Properties.Resources.resources
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.SportClubHub.resources
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.csproj.GenerateResource.cache
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.csproj.CoreCompileInputs.cache
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.exe
+C:\Users\47026765\Desktop\TPSportClub\obj\Debug\TPDataBase.pdb

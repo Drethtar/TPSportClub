@@ -59,6 +59,9 @@ namespace TPDataBase
                 command.CommandText = "insert into Usuario (Usuario,Contra,DeporteFavorito) " + " values ('" + txtUsuario.Text + "','" + txtContra.Text + "','" + 13 + "')";
                 command.ExecuteNonQuery();
 
+                IniciarSesion.ObtenerDatosUsuario.IDDeporteFavorito = 13;
+                IniciarSesion.ObtenerDatosUsuario.NombreDelUsuario = txtUsuario.Text;
+
                 connection.Close();
 
 
