@@ -25,18 +25,18 @@ namespace TPDataBase
             connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=BaseSportclub.accdb";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CrearCuentaphite()
         {
             try
             {
-                
+
                 connection.Open();
-                
+
                 OleDbCommand command = new OleDbCommand();
                 command.Connection = connection;
                 int count = 0;
 
-                
+
                 command.CommandText = "select * from Usuario where Usuario='" + txtUsuario.Text + "'";
 
                 OleDbDataReader reader = command.ExecuteReader();
@@ -56,7 +56,7 @@ namespace TPDataBase
                 connection.Close();
                 connection.Open();
 
-                command.CommandText = "insert into Usuario (Usuario,Contra,DeporteFavorito) " + " values ('" + txtUsuario.Text + "','" + txtContra.Text + "','"+ 13 +"')";
+                command.CommandText = "insert into Usuario (Usuario,Contra,DeporteFavorito) " + " values ('" + txtUsuario.Text + "','" + txtContra.Text + "','" + 13 + "')";
                 command.ExecuteNonQuery();
 
                 connection.Close();
@@ -73,7 +73,11 @@ namespace TPDataBase
             {
                 MessageBox.Show("Upa, algo salo mal... " + ex);
             }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
 
+            CrearCuentaphite();
         }
 
         private void lblInicarSesion_Click(object sender, EventArgs e)
@@ -81,6 +85,14 @@ namespace TPDataBase
             this.Hide();
             new IniciarSesion().ShowDialog();
             this.Show();
+        }
+
+        private void txtContra_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                CrearCuentaphite();
+            }
         }
     }
 }

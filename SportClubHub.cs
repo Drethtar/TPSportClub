@@ -52,6 +52,11 @@ namespace TPDataBase
             this.Show();
         }
 
-
+        private void btnCambiarDeporteFavorito_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DeporteFavorito().ShowDialog();
+            this.Show();
+        }
     }
 }

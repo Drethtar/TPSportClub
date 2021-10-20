@@ -33,7 +33,7 @@ namespace TPDataBase
             connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=BaseSportclub.accdb";
         }
 
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        private void IniciarSesionphite()
         {
             try
             {
@@ -88,12 +88,29 @@ namespace TPDataBase
                 MessageBox.Show("Upa algo salio mal... " + ex);
             }
         }
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            IniciarSesionphite();
+        }
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Hide();
             new CrearCuenta().ShowDialog();
             this.Show();
+        }
+
+        private void txtContra_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                IniciarSesionphite();
+            }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
