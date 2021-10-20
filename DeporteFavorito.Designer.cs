@@ -46,9 +46,10 @@ namespace TPDataBase
             this.button1.BackColor = System.Drawing.Color.Orange;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14F);
-            this.button1.Location = new System.Drawing.Point(310, 402);
+            this.button1.Location = new System.Drawing.Point(232, 327);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(190, 36);
+            this.button1.Size = new System.Drawing.Size(142, 29);
             this.button1.TabIndex = 1;
             this.button1.Text = "Cambiar El Deporte";
             this.button1.UseVisualStyleBackColor = false;
@@ -66,9 +67,10 @@ namespace TPDataBase
             "Ajedrez",
             "Atletismo",
             "Ninguno"});
-            this.cbxDeportes.Location = new System.Drawing.Point(12, 158);
+            this.cbxDeportes.Location = new System.Drawing.Point(11, 237);
+            this.cbxDeportes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbxDeportes.Name = "cbxDeportes";
-            this.cbxDeportes.Size = new System.Drawing.Size(163, 44);
+            this.cbxDeportes.Size = new System.Drawing.Size(123, 37);
             this.cbxDeportes.TabIndex = 2;
             // 
             // cbxCaracteristicas
@@ -78,9 +80,10 @@ namespace TPDataBase
             this.cbxCaracteristicas.Items.AddRange(new object[] {
             "De Contacto",
             "Sin Contacto"});
-            this.cbxCaracteristicas.Location = new System.Drawing.Point(12, 286);
+            this.cbxCaracteristicas.Location = new System.Drawing.Point(11, 123);
+            this.cbxCaracteristicas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbxCaracteristicas.Name = "cbxCaracteristicas";
-            this.cbxCaracteristicas.Size = new System.Drawing.Size(163, 44);
+            this.cbxCaracteristicas.Size = new System.Drawing.Size(123, 37);
             this.cbxCaracteristicas.TabIndex = 3;
             this.cbxCaracteristicas.SelectedIndexChanged += new System.EventHandler(this.cbxCaracteristicas_SelectedIndexChanged);
             // 
@@ -89,9 +92,10 @@ namespace TPDataBase
             this.label2.AutoSize = true;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label2.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F);
-            this.label2.Location = new System.Drawing.Point(12, 119);
+            this.label2.Location = new System.Drawing.Point(11, 206);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 36);
+            this.label2.Size = new System.Drawing.Size(83, 29);
             this.label2.TabIndex = 4;
             this.label2.Text = "Deportes";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -100,9 +104,10 @@ namespace TPDataBase
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F);
-            this.label3.Location = new System.Drawing.Point(6, 247);
+            this.label3.Location = new System.Drawing.Point(6, 92);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 36);
+            this.label3.Size = new System.Drawing.Size(136, 29);
             this.label3.TabIndex = 5;
             this.label3.Text = "Caracteristicas";
             // 
@@ -111,8 +116,9 @@ namespace TPDataBase
             this.pictureBox2.BackColor = System.Drawing.Color.White;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(240, 72);
+            this.pictureBox2.Size = new System.Drawing.Size(180, 58);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
@@ -122,17 +128,18 @@ namespace TPDataBase
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(800, 72);
+            this.pictureBox1.Size = new System.Drawing.Size(600, 58);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // DeporteFavorito
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
@@ -140,6 +147,7 @@ namespace TPDataBase
             this.Controls.Add(this.cbxCaracteristicas);
             this.Controls.Add(this.cbxDeportes);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DeporteFavorito";
             this.Text = "DeporteFavorito";
             this.Load += new System.EventHandler(this.DeporteFavorito_Load);

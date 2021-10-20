@@ -23,3 +23,16 @@ C:\Users\Bauty Garcia\OneDrive\Escritorio\TPDataBase\obj\Debug\TPDataBase.csproj
 C:\Users\Bauty Garcia\OneDrive\Escritorio\TPDataBase\obj\Debug\TPDataBase.exe
 C:\Users\Bauty Garcia\OneDrive\Escritorio\TPDataBase\obj\Debug\TPDataBase.pdb
 C:\Users\Bauty Garcia\OneDrive\Escritorio\TPDataBase\obj\Debug\TPDataBase.DeporteFavorito.resources
+C:\Users\PICHAU\Desktop\Nova pasta\bin\Debug\TPDataBase.exe.config
+C:\Users\PICHAU\Desktop\Nova pasta\bin\Debug\TPDataBase.exe
+C:\Users\PICHAU\Desktop\Nova pasta\bin\Debug\TPDataBase.pdb
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.csproj.AssemblyReference.cache
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.CrearCuenta.resources
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.DeporteFavorito.resources
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.IniciarSesion.resources
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.Properties.Resources.resources
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.SportClubHub.resources
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.csproj.GenerateResource.cache
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.exe
+C:\Users\PICHAU\Desktop\Nova pasta\obj\Debug\TPDataBase.pdb
